@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+
+.flex-container-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+
+    .flex-container-reverse {
+        flex-direction: column;
+      }
+}
+
+
+
