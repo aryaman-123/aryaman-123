@@ -58,7 +58,7 @@
 						<h2>RoachFree</h2>
 					</header>
 					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
-					<a href="images/Roachfree Trademark.jpg" download="roachfree_trademark" class="button">Trademark</a>
+					<a href="images/Roachfree Trademark.jpg" target="_blank" rel="noopener noreferrer" class="button">Trademark</a>
 				</div>
 			</article>
 		<!-- Feature 3 -->
@@ -314,6 +314,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				function test(element) {
+        var newTab = window.open();
+        setTimeout(function() {
+            newTab.document.body.innerHTML = element.innerHTML;
+        }, 500);
+        return false;
+    }
+			</script>
 
 	</body>
 </html>
