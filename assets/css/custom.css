@@ -17,9 +17,49 @@
     }
 
     .flex-container-reverse {
-        flex-direction: column;
-      }
+      flex-direction: column-reverse;
+    }
+
+    .heading-2{
+      font-size:  3em;
+    }
+}
+
+@media (max-width: 900px) {
+  #internship{
+    font-size: 40px !important;
+  }
 }
 
 
+.newButton{
+  background-color: transparent;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #35b88f;
+  color: black;
+  position: inherit;
+  width: 100%;
+}
+
+.newButton:hover{
+  border: transparent;
+  background-color: #35b88f;
+  color: white;
+}
+
+
+.internship{
+  font-size: 50px !important;
+}
+
+
+@media screen and (max-width: 736px){
+  .internship{
+    font-size : 2.5em;
+  }
+}
 
