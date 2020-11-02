@@ -29,6 +29,9 @@
   #internship{
     font-size: 40px !important;
   }
+  .main-heading{
+    font-size: 2em;
+  }
 }
 
 
@@ -61,5 +64,10 @@
   .internship{
     font-size : 2.5em;
   }
+}
+
+.main-heading{
+  font-size: 3em !important;
+
 }
 
