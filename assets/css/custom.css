@@ -23,6 +23,10 @@
     .heading-2{
       font-size:  3em;
     }
+
+    .main-heading{
+      font-size: 1.3em;
+    }
 }
 
 @media (max-width: 900px) {
@@ -66,6 +70,12 @@
   }
 }
 
+@media screen and (max-width: 400px){
+  .main-heading{
+    font-size: 1em;
+  }
+}
+
 .main-heading{
   font-size: 3em !important;
 }
@@ -74,4 +84,3 @@
 .recom{
   font-size: 1.5em;
 }
-
